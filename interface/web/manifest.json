@@ -1,6 +1,6 @@
 {
-    "name": "rest_api_project",
-    "short_name": "rest_api_project",
+    "name": "flutter_rest_api",
+    "short_name": "flutter_rest_api",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
