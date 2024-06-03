@@ -53,7 +53,5 @@ services:
 
      depends_on:
         - mqtt
-
-  networks:
-    my_network:
-      driver: bridge
+volumes:
+  my_network: null
