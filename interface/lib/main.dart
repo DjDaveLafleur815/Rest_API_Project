@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screen/home.dart';
 
+// Fonction qui lance l'application
 void main() {
   runApp(const MyApp());
 }
