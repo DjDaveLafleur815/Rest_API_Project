@@ -29,10 +29,14 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: users.length,
         itemBuilder: (context, index) {
           final user = users[index];
-          // final color = user.gender == 'male' ? Colors.blue : Colors.green;
           return ListTile(
             title: Text(user.fullName),
-            subtitle: Text(user.location.country),
+            subtitle: Text(user.email),
+            leading: Text(
+              '${index + 1}',
+            ),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () {},
             // tileColor: color,
           );
         },
